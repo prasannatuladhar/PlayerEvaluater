@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+     <section class="overlay">
+    <div class="container">
+       <div class="jumbotron mt-3">
+         <h1 class="display-6">Basketball Player Evaluation Form</h1>
+        <form method="POST" action="{% url 'create' %}">
+            {% csrf_token %}
+             <div class="form-row ">
+                <div class="col pb-2">
+                    <input type="text" class="form-control" placeholder="Home Team Name" name="home_team">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Away Team Name" name="away_team">
+                </div>
+            </div>
+            <div class="form-row ">
+                <div class="col pb-2">
+                    <input type="text" class="form-control" placeholder="Enter Player1 Name" name="player1">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Jersey  number #" name="player1_jersey">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col pb-2">
+                    <input type="text" class="form-control" placeholder="Enter Player2 Name" name="player2">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Jersey  number #" name="player2_jersey">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col pb-2">
+                    <input type="text" class="form-control" placeholder="Enter Player3 Name" name="player3">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Jersey  number #" name="player3_jersey">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col pb-2">
+                    <input type="text" class="form-control" placeholder="Enter Player4 Name" name="player4">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Jersey  number #" name="player4_jersey">
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col pb-2">
+                    <input type="text" class="form-control" placeholder="Enter Player5 Name" name="player5">
+                </div>
+                <div class="col">
+                    <input type="text" class="form-control" placeholder="Jersey  number #" name="player5_jersey">
+                </div>
+            </div>
+            <button class="btn btn-dark" type="submit">Submit</button>
+        </form>
+       </div>
+    </div>
+     </section>
+{% endblock %}

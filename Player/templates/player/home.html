@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% load staticfiles %}
+{% block content %}
+ <section class="overlay" style="background-image: url(static/1.jpg); background-repeat: no-repeat;">
+      <div class="container">
+        <div class="row align-items-center justify-content-center text-center">
+          <div class="col-md-8 ">
+            <h1 class="pt-3">Create Game and Evaluate For Free</h1>
+              <h2 class="h3  mb-5">A free player evaluator for basketball game</h2>
+              <p><a href="{% url 'create' %}" target="_blank" class="btn btn-dark">Get Started</a></p>
+              <p><a href="{% url 'result' %}" target="_blank" class="btn btn-dark">View Previous Game Result</a></p>
+              <br/>
+              <br/>
+              <br/><br/><br/><br/><br/><br/><br/>
+
+
+              <div class="card">
+  <div class="card-header">
+    Quotes by NBA Superstar
+  </div>
+  <div class="card-body">
+    <blockquote class="blockquote mb-0">
+      <p>“A winner is someone who recognizes his God-given talents, works his tail off to develop them into skills, and uses these skills to accomplish his goals.”</p>
+      <footer class="blockquote-footer">Larry Bird <cite title="Source Title">NBA All-Star, the league’s Most Valuable Player </cite></footer>
+    </blockquote>
+  </div>
+</div>
+          </div>
+        </div>
+      </div>
+    </section>
+{% endblock %}
