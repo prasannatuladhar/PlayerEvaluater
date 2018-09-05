@@ -65,3 +65,6 @@ class Player(models.Model):
 
     def counter_total_5(self):
         return self.counter_2pt_player5*2 + self.counter_3pt_player5*3
+
+    def __str__(self):
+        return self.home_team + ' vs ' + self.away_team
