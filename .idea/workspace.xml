@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfe1980-5b3c-4e13-9de7-7f0f1b23d564" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Player/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PlayerEvaluater/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/PlayerEvaluater/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Player/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Player/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,7 +32,7 @@
     <session id="-588335007">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="4" />
           <entry key="project.open.time.10" value="1" />
@@ -48,6 +46,7 @@
           <entry key="project.open.time.40" value="1" />
           <entry key="project.open.time.44" value="1" />
           <entry key="project.open.time.45" value="1" />
+          <entry key="project.open.time.51" value="1" />
           <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.61" value="1" />
           <entry key="project.open.time.65" value="1" />
@@ -55,21 +54,21 @@
           <entry key="project.open.time.77" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="28" />
+          <entry key="project.opened" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="18" />
           <entry key="html" value="3945" />
-          <entry key="py" value="3961" />
+          <entry key="py" value="3962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="3945" />
           <entry key="PLAIN_TEXT" value="18" />
-          <entry key="Python" value="3961" />
+          <entry key="Python" value="3962" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -109,16 +108,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Player/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+            <state relative-caret-position="126">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Player/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="194">
@@ -153,13 +152,13 @@
         <option value="$PROJECT_DIR$/../virtualenv/nick/Lib/site-packages/django/db/models/fields/__init__.py" />
         <option value="$PROJECT_DIR$/Player/templates/player/home.html" />
         <option value="$PROJECT_DIR$/PlayerEvaluater/urls.py" />
-        <option value="$PROJECT_DIR$/Player/views.py" />
         <option value="$PROJECT_DIR$/Player/templates/player/result.html" />
         <option value="$PROJECT_DIR$/Player/templates/player/create_info.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Player/templates/player/detail.html" />
         <option value="$PROJECT_DIR$/PlayerEvaluater/templates/base.html" />
         <option value="$PROJECT_DIR$/Player/models.py" />
+        <option value="$PROJECT_DIR$/Player/views.py" />
       </list>
     </option>
   </component>
@@ -181,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +210,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -289,7 +288,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21785174" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22087745" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -436,13 +435,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PlayerEvaluater/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Player/templates/player/home.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -450,17 +442,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Player/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="10" column="40" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Player/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="69" column="37" selection-start-line="69" selection-start-column="37" selection-end-line="69" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PlayerEvaluater/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Player/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
         </state>
       </provider>
     </entry>

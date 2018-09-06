@@ -15,7 +15,7 @@ def result_view(request):
     res = request.GET.get('result', False)
     return redirect('/game/' + str(res))
 
-@login_required
+@login_required(login_url='/admin/login')
 def create(request):
     if request.method == "POST":
         if request.POST['home_team'] and request.POST['away_team'] and request.POST['player1'] and request.POST['player2'] and request.POST['player3'] and request.POST['player4'] and \
